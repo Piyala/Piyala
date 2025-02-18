@@ -654,7 +654,7 @@ jQuery($=> {
     /*Testimonials*/
     $("#testimonial-slider").owlCarousel({
         items: 1,
-        autoplay: false,
+        autoplay: true,
         autoplayHoverPause: true,
         mouseDrag: false,
         loop: true,
@@ -752,8 +752,9 @@ jQuery($=> {
     $("#ourteam-slider").owlCarousel({
         items: 4,
         margin: 0,
+        autoplay: true,
         dots: false,
-        nav: false,
+        nav: true,
         responsive: {
             1280: {
                 items: 4,
@@ -772,7 +773,7 @@ jQuery($=> {
 
     /*Services Box Slider*/
     $("#services-slider").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         smartSpeed: 1200,

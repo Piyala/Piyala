@@ -543,7 +543,7 @@ p {
     font-weight: bold;
 }
 
-.yellow-blue-btn{font-size: 12px;font-family: 'Open Sans', sans-serif; padding: 10px 30px;color:#ffffff !important;font-weight: 600;background-color:#F7B389;border:1px solid #ffffff !important;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important; cursor: pointer}
+.yellow-blue-btn{font-size: 12px;font-family: 'Open Sans', sans-serif; padding: 10px 30px;color:#ffffff !important;font-weight: 600;background-color:#9c7646;border:1px solid #ffffff !important;border-radius: 0px;-webkit-transition: .8s ease !important;-o-transition: .8s ease !important;transition: .8s ease !important; cursor: pointer}
 .yellow-blue-btn:hover{color: #ffffff; ;background-color:#3E4C47 !important; border: 1px solid transparent !important;}
 
 
@@ -1507,7 +1507,7 @@ ul.links li a::before,
     padding: 8px 0 !important;
     text-transform: capitalize;
     font-size: 18px;
-    color: #606060;
+    color: #9c7646;
     position: relative;
     line-height: normal;
     margin: 16px 1.75rem;
@@ -1522,7 +1522,7 @@ ul.links li a::before,
 
 .text-warning-hvr:hover,
 .text-warning-hvr:focus {
-    color: #ffc107;
+    color: #9c7646;
 }
 
 .text-grey {
@@ -1534,7 +1534,7 @@ ul.links li a::before,
 }
 
 .transparent-bg .navbar-nav .nav-link {
-    color: #606060;
+    color: #9c7646;
 }
 
 .transparent-bg.darkcolor .navbar-nav .nav-link {
@@ -1545,7 +1545,7 @@ ul.links li a::before,
 }
 
 .transparent-bg.darkcolor .navbar-nav .nav-link.active {
-    color: #F7B389;
+    color: #000;
 }
 
 .dark-slider h2,
@@ -1688,7 +1688,7 @@ a.dropdown-toggle::after {
 }
 
 .dropdown-item.active {
-    color: #F7B389;
+    color: #9c7646;
 }
 
 .navbar-nav .nav-link:hover,
@@ -1696,11 +1696,11 @@ a.dropdown-toggle::after {
 .navbar .dropdown:hover .dropdown-toggle,
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu.megamenu .dropdown-item:hover {
-    color: #F7B389 !important;
+    color: #000 !important;
 }
 
 .navbar-nav .nav-link.active{
-    color: #F7B389 !important;
+    color: #000 !important;
 }
 
 .bg-yellow .dropdown-menu .dropdown-item:hover,
@@ -1709,7 +1709,7 @@ a.dropdown-toggle::after {
 }
 .bg-yellow .navbar-nav .nav-link:hover,
 .bg-yellow .navbar-nav .nav-link.active{
-    color: #F7B389 !important;
+    color: #9c7646 !important;
 }
 
 .dropdown-menu .dropdown-title {
@@ -2761,7 +2761,7 @@ iframe {
 }
 .process-wrapp li.active>.pro-step{
     border-color: transparent;
-    color: #F7B389;
+    color: #9c7646;
 }
 .process-wrapp li.active:hover>.pro-step {
     border-color: transparent !important;
@@ -2926,7 +2926,7 @@ iframe {
 }
 
 .feature-item.active {
-    background: #F7B389;
+    background: #9c7646;
 }
 
 .image.mobile-apps>img {
@@ -3318,8 +3318,8 @@ iframe {
 }
 
 .testi-box .testimonial-round {
-    height: 180px;
-    width: 180px;
+    height: 180px !important;
+    width: 180px !important;
     overflow: hidden;
 }
 
@@ -4740,7 +4740,7 @@ body:not(.rtl-layout) .readmore {
 .pagination li>a:hover,
 .pagination li>a:focus,
 .pagination li.active>a {
-    background: #F7B389 !important;
+    background: #9c7646 !important;
     color: #fff;
     border: 0;
 }
@@ -5266,12 +5266,12 @@ ul.count_down.white li p:nth-child(2) {
 }
 
 .pricing-item.active {
-    background: #F7B389;
+    background: #9c7646;
 }
 
 .pricing-item.active .button {
     border-color: #fff;
-    background: #F7B389;
+    background: #9c7646;
     transition: 0.2s all;
 }
 
@@ -5295,7 +5295,7 @@ ul.count_down.white li p:nth-child(2) {
 
 .pricing-item .button:focus {
     background: #fff;
-    border-color: #F7B389;
+    border-color: #9c7646;
     color: #026cb8;
 }
 
@@ -5999,26 +5999,35 @@ ul.latest_news li a:focus+span.defaultcolor {
     background-color: #f6f6f6 !important;
 }
 .green{
-    color: #000;
+    color: #9c7646;
 }
 .beige{
-    color: #3E4C47;
+    color: #000000;
 }
 .bg-green{
     background-color: #EAF3EC ;
 }
-h1,h2{
+/* h1,h2{
     font-family: 'Playfair Display',sans-serif !important;
 }
 
 h3,h4,h5{
     font-family: 'Macondo',''sans-serif !important;
-}
+} */
 .banner,.defaultimg {
     background-size: contain !important;
-    background-position: inherit;
+    background-position: center;
 }
 .ingredient-image{
     height: 200px;
     object-fit: cover;
+}
+#site-footer{
+    background-color: #ff4a51 !important;
+}
+.testimonial-img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
